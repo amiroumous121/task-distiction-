@@ -1,0 +1,11 @@
+steps:
+  - name: "gcr.io/cloud-builders/docker"
+    args:
+      [
+        "build",
+        "-t",
+        "gcr.io/my-project-amir-387708/amir-node-app:$SHORT_SHA",
+        ".",
+      ]
+images:
+  - "gcr.io/my-project-amir-387708/amir-node-app:$SHORT_SHA"

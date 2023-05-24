@@ -1,0 +1,14 @@
+{
+  "name": "amir-app",
+  "version": "1.0.0",
+  "description": "A simple Node.js app",
+  "main": "amir.js",
+  "scripts": {
+    "start": "node amir.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^7.2.0"
+  }
+}
