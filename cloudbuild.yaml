@@ -3,3 +3,6 @@ steps:
     args: ["build", "-t", "gcr.io/my-project-amir-387708/my-app", "."]
 images:
   - "gcr.io/my-project-amir-387708/my-app"
+options:
+  logging: NONE
+
